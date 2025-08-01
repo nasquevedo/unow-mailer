@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    container_name: mailer
+    ports: 
+      - "8000:80"
+    volumes:
+      - .:/app
+    networks:
+      rest-api-unow_unow_network:
+        ipv4_address: 172.18.0.4
+
+networks:
+  rest-api-unow_unow_network:
+    external: true
