@@ -20,7 +20,7 @@ git clone https://github.com/nasquevedo/unow-mailer.git
 
 Copy the .env.local content into the .env file:
 ```cp .env.local .env```
-then .env file will be created.
+then .env file will be created and add the information that was sent in the email.
 
 After deploying the first project, the pipenv dependency must be installed, just in case the machine doesn't have this:
 
