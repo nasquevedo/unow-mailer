@@ -21,6 +21,8 @@ git clone https://github.com/nasquevedo/unow-mailer.git
 
 Move to the project file: ```cd unow-mailer```
 
+*** Note: use the branch develop provisionally: ```git checkout develop```
+
 Copy the .env.local content into the .env file:
 ```cp .env.local .env```
 then .env file will be created and after that add the information that was sent in the email.
