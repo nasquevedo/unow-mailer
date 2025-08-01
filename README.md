@@ -4,10 +4,11 @@ This project was created as a Python API using FastAPI. It sends emails to the u
 
 ### Requirements
 - Python3.12
+- pip
 - pipenv
 - Docker
 
-## Setting
+## Setting up
 
 Before deploying this project locally, start with the Symfony REST API first, because it needs the network created in that project:
 https://github.com/nasquevedo/rest-api-unow/blob/develop/README.md
@@ -18,9 +19,13 @@ First of all, clone the repository:
 git clone https://github.com/nasquevedo/unow-mailer.git
 ```
 
+Move to the project file: ```cd unow-mailer```
+
 Copy the .env.local content into the .env file:
 ```cp .env.local .env```
-then .env file will be created and add the information that was sent in the email.
+then .env file will be created and after that add the information that was sent in the email.
+Suggestion: open the code with the next line:
+``` code .```
 
 After deploying the first project, the pipenv dependency must be installed, just in case the machine doesn't have this:
 
